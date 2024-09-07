@@ -30,12 +30,6 @@ let dragAns = [
     {opt4: 'monthly-sum'}
 ];
 
-window.history.pushState(null, null, window.location.href);
-window.onpopstate = function () {
-    window.history.go(1);
-};
-
-
 window.addEventListener('load', () => {
     
     finishBtn.addEventListener("click", finishTest);
