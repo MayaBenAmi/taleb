@@ -1,0 +1,152 @@
+@font-face {
+    font-family: yarden;
+    src: url(assets/fonts/yarden-regular-alefalefalef.otf);
+}
+@font-face {
+    font-family: yarden-bold;
+    src: url(assets/fonts/yarden-bold-alefalefalef.otf);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    overflow-x: hidden;
+    direction: rtl;
+    font-family: yarden;
+    text-align: right;
+    background-image: linear-gradient(to right, rgb(43, 96, 156) , rgb(31, 67, 107));
+}
+
+#hativa-logo {
+    position: fixed;
+    width: 15vw;
+    /* height: 10vh; */
+    top: 3vh;
+    left: 5vw;
+    z-index: 4;
+}
+
+#blob {
+    width: 100vw;
+    /* height: 16vh; */
+    z-index: 3;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+
+
+#back-btn {
+    position: fixed;
+    width: 15vw;
+    height: 10vh;
+    top: 0.5vh;
+    right: 2vw;
+    z-index: 4; 
+}
+
+#back-text {
+    text-align: center;
+    position: fixed;
+    top: 8vh;
+    right: 6vw;
+    z-index: 4;
+    color: #274C77;
+    font-size: 4vw;
+}
+
+/* #info {
+    background-image: url(assets/media/text-blob.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 96vw;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    background-size: cover;
+
+} */
+
+
+#info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between ;
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%); 
+    top: 15%;
+}
+
+/* #info-text {
+    position: absolute;
+    right: 0%;
+    font-size: 2.5vh;
+    padding-right: 2%;
+    width: 80%;
+    height: 56%;
+    bottom: 13%;
+    padding-left: 0%;
+    padding-bottom: 1%;
+    color: rgb(35, 68, 105);
+    white-space: break-spaces;
+} */
+
+#info-text {
+    font-size: 2.5vh;
+    /* width: 90%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%); */
+    color: #A3CEF1;
+    position: absolute;
+    white-space: break-spaces;
+    /* border-radius: 2vh;
+    background-color: rgb(39, 76, 119); */
+    top: 15%;
+    /* margin-top: 3%; */
+    box-shadow: #a3cef1a9 0px 6px 12px -2px, #a3cef198 0px 3px 7px -3px;
+    padding: 2%;
+}
+
+#arrows {
+    /* background-color: #A3CEF1; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+
+.arrow {
+    /* position: absolute;
+    bottom: 2%; */
+    width: 6vw;
+    /* height: 6vh; */
+    margin: 1%;
+    background-color: #A3CEF1;
+    border-radius: 1vh;
+    padding: 2%;
+    box-shadow: rgba(39, 76, 119, 0.733) 1.95px 1.95px 2.6px;
+    
+}
+
+#next {
+    /* left: 4%; */
+}
+
+
+#back{
+    /* right: 3%; */
+}
+
+.title {
+    font-weight: bold;
+    margin-top: 8%;
+    text-decoration: underline;
+    margin-bottom: 1.5%;
+}

@@ -1,0 +1,93 @@
+@font-face {
+    font-family: yarden;
+    src: url(assets/fonts/yarden-regular-alefalefalef.otf);
+}
+@font-face {
+    font-family: yarden-bold;
+    src: url(assets/fonts/yarden-bold-alefalefalef.otf);
+}
+
+
+body {
+  direction: rtl;
+  text-align: center;
+    width: 100vw;
+    font-family: yarden-bold;
+    color: rgb(215, 233, 248);
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(62, 100, 145) , rgb(22, 60, 104));
+    animation: gradient 10s ease infinite; 
+    -webkit-animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
+    touch-action: none; /* Prevents scrolling on touch */
+}
+
+
+canvas {
+  display: block;
+}
+
+
+@-webkit-keyframes gradient{
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+       background-position: 0% 50%;
+    }
+  }
+  @keyframes gradient{
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+       background-position: 0% 50%;
+    }
+  }
+
+#hativa-logo {
+    position: fixed;
+    width: 15vw;
+    top: 3vh;
+    left: 5vw;
+    z-index: 4;
+}
+
+
+#main-title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 90vw;
+  font-weight: bold;
+  font-size: 5.2vh;
+  transform: translateX(-50%);
+  color: rgb(215, 233, 248);
+}
+
+#sub-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90vw;
+  font-size: 2.5vh;
+  transform: translateX(-50%);
+  color: rgb(215, 233, 248);
+  font-family: yarden;
+}
+
+#repeat {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  height: 10vh;
+  transform: translateX(-50%);
+}

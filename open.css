@@ -1,0 +1,93 @@
+@font-face {
+    font-family: yarden;
+    src: url(assets/fonts/yarden-regular-alefalefalef.otf);
+}
+@font-face {
+    font-family: yarden-bold;
+    src: url(assets/fonts/yarden-bold-alefalefalef.otf);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0%;
+    direction: rtl;
+    font-family: yarden;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(85, 127, 175) , rgb(39, 76, 119));
+}
+
+#hativa-logo {
+    position: absolute;
+    width: 15vw;
+    /* height: 10vh; */
+    top: 2vh;
+    left: 2vw;
+    z-index: 1;
+}
+
+#main-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    color: rgb(194, 224, 248);
+    font-family: yarden-bold;
+    font-size: 10vmax;
+    text-align: center;
+}
+
+#start-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15%;
+    color: rgb(194, 224, 248);
+    font-weight: bold;
+    font-size: 3vmax;
+}
+
+#startArrow {
+    position: absolute;
+    bottom: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12vw;
+    animation: up-down 3s linear infinite;
+    -webkit-animation: up-down 3s linear infinite;
+    cursor: pointer;
+}
+
+#blob {
+    width: 100vw;
+    position: absolute;
+    height: 18vh;
+    top: 0%;
+    left: 0%;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        bottom: 6%;
+    }
+    50% {
+        bottom: 4%;
+    }
+    100% {
+        bottom: 6%;
+    }
+}
+
+@keyframes up-down {
+    0% {
+        bottom: 6%;
+    }
+    50% {
+        bottom: 4%;
+    }
+    100% {
+        bottom: 6%;
+    }
+}
+

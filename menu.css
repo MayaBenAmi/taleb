@@ -1,0 +1,92 @@
+@font-face {
+    font-family: yarden;
+    src: url(assets/fonts/yarden-regular-alefalefalef.otf);
+}
+@font-face {
+    font-family: yarden-bold;
+    src: url(assets/fonts/yarden-bold-alefalefalef.otf);
+}
+
+body {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    direction: rtl;
+    font-family: yarden;
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(76, 120, 170) , rgb(39, 76, 119));
+}
+
+#hativa-logo {
+    position: absolute;
+    width: 15vw;
+    height: 10vh;
+    top: 2vh;
+    left: 2vw;
+    z-index: 1;
+}
+
+#flex-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 80vh;
+    right: 0vw;
+    top:25vh;
+}
+
+.topic {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-right: 3vw;
+    margin-top: 3vh;
+    font-size: 8vw;
+    font-weight: bold;
+    color: rgb(215, 233, 248);
+}
+
+
+.topic-img {
+    width: 20vw;
+    margin-left: 2vw;
+}
+
+.topic-title {
+    margin-top: 8%;
+}
+
+#blob {
+    width: 100vw;
+    position: absolute;
+    height: 22vh;
+    top: 0%;
+    left: 0%;
+}
+
+h1 {
+    position: absolute;
+    top: 0.7vh;
+    right: 0.5vw;
+    color: rgb(39, 76, 119);
+    font-family: yarden-bold;
+    font-size: 10vw;
+    width: 50vw;
+}
+
+button {
+    position: absolute;
+    bottom: 4vh;
+    left: 5vw;
+    font-size: 2.5vh;
+    font-weight: bold;
+    border: none;
+    font-family: yarden-bold;
+    background-color: #A3CEF1;
+    padding: 3%;
+    border-radius: 3vw;
+    color: rgb(29, 60, 95);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
