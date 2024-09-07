@@ -29,13 +29,13 @@ body {
 
 #title {
     font-size: yarden-bold;
-    position: absolute;
-    top: 10%;
+    position: relative;
+    top: 11%;
     font-weight: bold;
     font-size: 11vw;
     width: 100vw;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%;
+    transform: translateX(-50%); */
     color: rgb(215, 233, 248);
 
 }
@@ -43,20 +43,23 @@ body {
 #instructions {
     color: rgb(215, 233, 248);
     width: 90vw;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 20%;
+    position: relative;
+    margin: auto;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    top: 6%;
     font-size: 7.2vw;
     white-space: break-spaces;
 }
 
 
 button {
-    position: absolute;
+    /* position: relative;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 8%;
+    top: 8%; */
+    position: relative;
+    top: 7%;
     color: rgb(32, 103, 150);
     padding: 3%;
     border-radius: 3vw;
