@@ -165,7 +165,7 @@ aside {
     top: 88%;
     right: 50%;
     font-family: 'yarden-bold';
-    padding: 3%;
+    padding: 3.5%;
     /* margin-bottom: 30px; */
     text-align: center;
     text-transform: uppercase;
@@ -232,8 +232,8 @@ aside {
   .blob-btn__blob {
     position: absolute;
     top: 2px;
-    width: 27%;
-    height: 120%;
+    width: 25%;
+    height: 140%;
     background: rgb(39, 76, 119);
     border-radius: 100%;
     transform: translate3d(0, 150%, 0) scale(1.7);
