@@ -231,7 +231,7 @@ aside {
   }
   .blob-btn__blob {
     position: absolute;
-    top: 2px;
+    top: 2%;
     width: 25%;
     height: 150%;
     background: rgb(39, 76, 119);
