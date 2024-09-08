@@ -295,11 +295,11 @@ aside {
 
 @media (max-width: 480px) {
   .blob-btn {
-        font-size: 3.5vh;
+        font-size: 3vh;
         padding: 3%;
         top: 50vh;
         position: relative;
-        right: 4%;
+        right: 0%;
         transform: translateX(-50%);
   }
 }
