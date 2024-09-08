@@ -186,11 +186,11 @@ aside {
   cursor: pointer;
   border-radius: 2vh;
   /* Positioning relative for the pseudo-elements */
-  position: relative;
+  position: absolute;
   font-size: 2.5vh;
   padding: 3%;
   top: 50vh;
-  left: 1vw;
+  right: 40vw;
   transform: translateX(-50%);
 }
 
