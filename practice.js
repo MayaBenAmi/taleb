@@ -166,6 +166,7 @@ let checkAns = (event) => {
       }
     } else {
       event.target.innerText = "בדוק אותי";
+      window[`answers${topicNum}`][btnNum].chosen = '';
       for (let i = 1; i <= 4; i++) {
         document.getElementById(`ans${btnNum}${i}`).className = 'answer';
         document.getElementById(`ans${btnNum}${i}`).addEventListener('click', selectAns);
