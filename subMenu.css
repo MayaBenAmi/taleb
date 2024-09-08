@@ -233,7 +233,7 @@ aside {
     position: absolute;
     top: 2px;
     width: 25%;
-    height: 180%;
+    height: 200%;
     background: rgb(39, 76, 119);
     border-radius: 100%;
     transform: translate3d(0, 150%, 0) scale(1.7);
