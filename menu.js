@@ -20,7 +20,7 @@ window.addEventListener('load', () => {
         practiceBtn.addEventListener('click', ()=> {
             let myTimer = setTimeout(()=> {
                 window.location.href = 'practice.html';
-            }, 650);
+            }, 500);
            
         });
         let topicNum = sessionStorage.getItem('topicNum');
