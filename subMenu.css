@@ -232,8 +232,8 @@ aside {
   .blob-btn__blob {
     position: absolute;
     top: 2px;
-    width: 25%;
-    height: 200%;
+    width: 20%;
+    height: 300%;
     background: rgb(39, 76, 119);
     border-radius: 100%;
     transform: translate3d(0, 150%, 0) scale(1.7);
