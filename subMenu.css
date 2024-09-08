@@ -292,22 +292,15 @@ aside {
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
-  .blob-btn {
-    font-size: 6vw; /* Larger font size for tablets and smaller desktops */
-    padding: 5%;
-    top: 80%; /* Adjust position */
-  }
-}
 
 @media (max-width: 480px) {
   .blob-btn {
-    font-size: 8vw; /* Larger font size for mobile phones */
-    padding: 6%;
-    top: 70%; /* Adjust position */
-    right: 0%; /* Center the button horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    width: 90%; /* Ensure button fits within the screen */
+        font-size: 3.5vh;
+        padding: 3%;
+        top: 50vh;
+        position: relative;
+        right: 4%;
+        transform: translateX(-50%);
   }
 }
 
